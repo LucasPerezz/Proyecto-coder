@@ -1,0 +1,105 @@
+@import '../base/variables';
+@import '../base/maps';
+@import '../base/mixins';
+
+.bg-header {
+    background-color: $bg-color-principal;
+    width: 100%;
+
+    .logo {
+        width: 7%;
+        position: relative;
+        top: 30px;
+        left: 30px;
+    }
+}
+
+.menu {
+    font-family: 'Lobster', cursive;
+    font-family: 'Sofia', cursive;
+    font-size: 1rem;
+    color: $bg-color-principal;
+    list-style: none;
+    padding-top: 1rem;
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 20px;
+
+    .blue {
+        &::after {
+            content: '🎮';
+        }
+
+        &:link {
+            color: map-get($consolas, playstation);
+        }
+
+        &:visited {
+            color: map-get($consolas, playstation);
+        }
+    }
+
+    .green {
+        &::after {
+            content: '🎮';
+        }
+
+        &:link {
+            color: map-get($consolas, xbox);
+        }
+
+        &:visited {
+            color: map-get($consolas, xbox);
+        }
+    }
+
+    .red {
+        &::after {
+            content: '🖥️';
+        }
+
+        &:link {
+            color: map-get($consolas, pc);
+        }
+
+        &:visited {
+            color: map-get($consolas, pc);
+        }
+    }
+
+    .contacto {
+        &:link {
+            color: map-get($consolas, font-light);
+        }
+
+        &:visited {
+            color: map-get($consolas, font-light);
+        }
+    }
+
+    .inicio-uno{
+        &:link{
+            color: map-get($consolas, inicio);
+        }
+
+        &:visited{
+            color: map-get($consolas, inicio);
+        }
+    }
+}
+
+.banner {
+    background-color: rgb(10, 10, 10);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 110px;
+
+    .imagen-banner {
+        width: 7%;
+    }
+}

@@ -1,0 +1,46 @@
+@import '../base/variables';
+@import '../base/maps';
+@import '../base/mixins';
+
+footer {
+    margin-top: 50px;
+    list-style: none;
+    border-top: 1px solid $color-white;
+    background-color: $bg-color-principal;
+    padding: 45px 75px;
+
+    .lista-footer {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: left;
+        padding-top: 100px;
+    }
+
+    .mercadopago {
+        width: 30vh;
+    }
+
+    .mercadopago-text {
+        font-family: 'Roboto', sans-serif;
+        color: aliceblue;
+        font-size: 0.5rem;
+    }
+}
+
+    .footer-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+
+        .redes-sociales{
+            width: 5vh;
+            padding: 0px 4px;
+        }
+    
+    }
+

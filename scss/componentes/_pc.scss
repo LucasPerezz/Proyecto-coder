@@ -1,0 +1,45 @@
+@import '../base/variables';
+@import '../base/mixins';
+@import '../base/maps';
+
+
+.juegos-pc-gaming {
+    @include body-container
+}
+
+.pc-item {
+    width: 35vh;
+    height: 50vh;
+    margin: 20px;
+    padding-bottom: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: $bg-color-principal;
+    box-shadow: 0px 1px 10px $color-pc;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    @include animation(all 400ms ease);
+
+    &:hover {
+        box-shadow: 5px 5px 20px $color-pc;
+        @include transform(scale(1.1, 1.1))
+    }
+
+    img {
+        width: 80%;
+        height: 65%;
+        border-radius: 14px;
+        padding: 20px;
+    }
+
+    p, h3 {
+        font-size: 0.7rem;
+        font-family: 'Roboto';
+        color: $color-white;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bolder;
+    }
+}

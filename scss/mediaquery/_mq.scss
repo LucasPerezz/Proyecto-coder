@@ -1,0 +1,126 @@
+@media only screen and (max-width : 576px) {
+
+    .logo {
+        display: none;
+    }
+
+    .logo-responsive{
+        width: 10vh;
+    }
+
+    .banner{
+        display: none;
+    }
+
+    .imagen-navegable {
+        width: 90%;
+        height: 40%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin: 60px auto;
+        padding-left: 45px;
+    }
+
+    .imagen-navegable img {
+        width: 90%;
+        margin: auto;
+    }
+
+    .juegos-ps {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 0px;
+        margin: 35px;
+    }
+
+    .ps-item {
+        width: 60%;
+        height: 60%;
+    }
+
+    .juegos-xbox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 0px;
+        margin: 35px;
+    }
+
+    .xbox-item {
+        width: 60%;
+        height: 60%;
+    }
+
+    .juegos-pc-gaming {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 0px;
+        margin: 35px;
+    }
+
+    .pc-item {
+        width: 60%;
+        height: 60%;
+    }
+
+    .lista-footer {
+        padding-top: 40px;
+    }
+}
+
+
+
+
+@media only screen and (min-width : 577px) and (max-width : 991px) {
+
+    .logo {
+        display: none;
+    }
+
+    .logo-responsive{
+        width: 10vh;
+    }
+
+    .banner{
+        display: none;
+    }
+
+    .imagen-navegable {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 60px auto;
+        height: 40%;
+        justify-content: space-evenly;
+    }
+
+    .imagen-navegable img {
+        width: 100%;
+
+
+    }
+
+    .juegos-ps,
+    .juegos-xbox,
+    .juegos-pc-gaming {
+        flex-wrap: wrap;
+        gap: 0px;
+        margin: 35px;
+    }
+
+    .ps-item,
+    .xbox-item,
+    .pc-item {
+        width: 40vh;
+        height: 60vh;
+    }
+
+
+}

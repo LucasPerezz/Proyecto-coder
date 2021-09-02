@@ -1,0 +1,27 @@
+html {
+    font-size: 25px;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Sofia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@700&display=swap');
+
+
+@import 'componentes/header';
+@import 'componentes/body-inicio';
+@import 'componentes/playstation';
+@import 'componentes/xbox';
+@import 'componentes/pc';
+@import 'componentes/footer';
+@import 'base/variables';
+@import 'base/maps';
+@import 'mediaquery/mq';
+@import 'componentes/bootstrap-style';
+@import 'base/mixins';
