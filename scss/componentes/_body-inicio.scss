@@ -4,8 +4,8 @@
 
 body {
     background-color: $bg-color-principal;
-    background-image: url(../../imagenes/background-page.jpg);
-    background-size: cover;
+    background-image: url(../imagenes/background-page.jpg);
+    background-size: contain;
 
     .imagen-ps, .imagen-xbox, .imagen-pcgaming {
         width: 100%;
