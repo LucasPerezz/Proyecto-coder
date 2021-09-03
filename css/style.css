@@ -133,7 +133,7 @@ body .imagen-ps, body .imagen-xbox, body .imagen-pcgaming {
   justify-content: center;
   flex-wrap: wrap;
   gap: 60px;
-  margin: 100px;
+  margin: 0px 100px;
 }
 
 .ps-item {
@@ -183,7 +183,7 @@ body .imagen-ps, body .imagen-xbox, body .imagen-pcgaming {
   justify-content: center;
   flex-wrap: wrap;
   gap: 60px;
-  margin: 100px;
+  margin: 0px 100px;
 }
 
 .xbox-item {
@@ -233,7 +233,7 @@ body .imagen-ps, body .imagen-xbox, body .imagen-pcgaming {
   justify-content: center;
   flex-wrap: wrap;
   gap: 60px;
-  margin: 100px;
+  margin: 0px 100px;
 }
 
 .pc-item {
