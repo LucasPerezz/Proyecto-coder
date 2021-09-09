@@ -31,7 +31,8 @@
         @include imagenes-productos
     }
 
-    p, h3 {
+    p,
+    h3 {
         @include producto-precio
     }
 }

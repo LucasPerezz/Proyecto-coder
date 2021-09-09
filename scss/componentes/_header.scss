@@ -80,12 +80,12 @@
         }
     }
 
-    .inicio-uno{
-        &:link{
+    .inicio-uno {
+        &:link {
             color: map-get($consolas, inicio);
         }
 
-        &:visited{
+        &:visited {
             color: map-get($consolas, inicio);
         }
     }

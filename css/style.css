@@ -94,7 +94,9 @@ body {
   background-image: url(../imagenes/background-page.jpg);
   background-size: contain;
 }
-body .imagen-ps, body .imagen-xbox, body .imagen-pcgaming {
+body .imagen-ps,
+body .imagen-xbox,
+body .imagen-pcgaming {
   width: 100%;
   height: 100%;
   border-radius: 15px;
@@ -168,7 +170,8 @@ body .imagen-ps, body .imagen-xbox, body .imagen-pcgaming {
   margin: 10px 0px;
   object-fit: contain;
 }
-.ps-item p, .ps-item h3 {
+.ps-item p,
+.ps-item h3 {
   font-size: 0.7rem;
   font-family: "Roboto";
   color: white;
@@ -218,7 +221,8 @@ body .imagen-ps, body .imagen-xbox, body .imagen-pcgaming {
   margin: 10px 0px;
   object-fit: contain;
 }
-.xbox-item p, .xbox-item h3 {
+.xbox-item p,
+.xbox-item h3 {
   font-size: 0.7rem;
   font-family: "Roboto";
   color: white;
@@ -268,7 +272,8 @@ body .imagen-ps, body .imagen-xbox, body .imagen-pcgaming {
   margin: 10px 0px;
   object-fit: contain;
 }
-.pc-item p, .pc-item h3 {
+.pc-item p,
+.pc-item h3 {
   font-size: 0.7rem;
   font-family: "Roboto";
   color: white;
@@ -403,7 +408,7 @@ footer .mercadopago-text {
     width: 20vh;
   }
   footer .mercadopago-text {
-    font-size: 0.4rem;
+    font-size: 0.3rem;
   }
 }
 @media only screen and (min-width: 577px) and (max-width: 991px) {
@@ -421,6 +426,10 @@ footer .mercadopago-text {
 
   .menu {
     display: none;
+  }
+
+  .carousel-setup {
+    margin: 150px 0px 0px 0px;
   }
 
   .imagen-navegable {

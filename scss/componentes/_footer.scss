@@ -31,16 +31,15 @@ footer {
     }
 }
 
-    .footer-container{
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        align-items: center;
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
 
-        .redes-sociales{
-            width: 5vh;
-            padding: 0px 4px;
-        }
-    
+    .redes-sociales {
+        width: 5vh;
+        padding: 0px 4px;
     }
 
+}
