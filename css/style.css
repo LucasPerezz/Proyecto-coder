@@ -98,6 +98,7 @@ body .imagen-ps, body .imagen-xbox, body .imagen-pcgaming {
   width: 100%;
   height: 100%;
   border-radius: 15px;
+  object-fit: cover;
 }
 
 .imagen-navegable {
@@ -132,13 +133,12 @@ body .imagen-ps, body .imagen-xbox, body .imagen-pcgaming {
   justify-content: space-evenly;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 60px;
-  margin: 0px 100px;
+  gap: 30px;
 }
 
 .ps-item {
   width: 35vh;
-  height: 50vh;
+  height: 54vh;
   padding-bottom: 20px;
   margin: 20px;
   border-radius: 6px;
@@ -162,10 +162,11 @@ body .imagen-ps, body .imagen-xbox, body .imagen-pcgaming {
   -moz-transform: scale(1.1, 1.1);
 }
 .ps-item img {
-  width: 80%;
-  height: 65%;
-  border-radius: 14px;
-  padding: 20px;
+  width: 75%;
+  height: 60%;
+  border-radius: 4px;
+  margin: 10px 0px;
+  object-fit: contain;
 }
 .ps-item p, .ps-item h3 {
   font-size: 0.7rem;
@@ -182,13 +183,12 @@ body .imagen-ps, body .imagen-xbox, body .imagen-pcgaming {
   justify-content: space-evenly;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 60px;
-  margin: 0px 100px;
+  gap: 30px;
 }
 
 .xbox-item {
   width: 35vh;
-  height: 50vh;
+  height: 54vh;
   padding-bottom: 20px;
   margin: 20px;
   border-radius: 6px;
@@ -212,10 +212,11 @@ body .imagen-ps, body .imagen-xbox, body .imagen-pcgaming {
   -moz-transform: scale(1.1, 1.1);
 }
 .xbox-item img {
-  width: 80%;
-  height: 65%;
-  border-radius: 14px;
-  padding: 20px;
+  width: 75%;
+  height: 60%;
+  border-radius: 4px;
+  margin: 10px 0px;
+  object-fit: contain;
 }
 .xbox-item p, .xbox-item h3 {
   font-size: 0.7rem;
@@ -232,13 +233,12 @@ body .imagen-ps, body .imagen-xbox, body .imagen-pcgaming {
   justify-content: space-evenly;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 60px;
-  margin: 0px 100px;
+  gap: 30px;
 }
 
 .pc-item {
   width: 35vh;
-  height: 50vh;
+  height: 54vh;
   margin: 20px;
   padding-bottom: 20px;
   border-radius: 6px;
@@ -262,10 +262,11 @@ body .imagen-ps, body .imagen-xbox, body .imagen-pcgaming {
   -moz-transform: scale(1.1, 1.1);
 }
 .pc-item img {
-  width: 80%;
-  height: 65%;
-  border-radius: 14px;
-  padding: 20px;
+  width: 75%;
+  height: 60%;
+  border-radius: 4px;
+  margin: 10px 0px;
+  object-fit: contain;
 }
 .pc-item p, .pc-item h3 {
   font-size: 0.7rem;
@@ -322,8 +323,16 @@ footer .mercadopago-text {
     width: 10vh;
   }
 
+  .menu {
+    display: none;
+  }
+
   .banner {
     display: none;
+  }
+
+  .carousel-setup {
+    margin: 150px 0px 0px 0px;
   }
 
   .imagen-navegable {
@@ -347,11 +356,11 @@ footer .mercadopago-text {
     align-items: center;
     justify-content: space-evenly;
     gap: 0px;
-    margin: 35px;
+    margin: 150px auto;
   }
 
   .ps-item {
-    width: 60%;
+    width: 80%;
     height: 60%;
   }
 
@@ -361,11 +370,11 @@ footer .mercadopago-text {
     align-items: center;
     justify-content: space-evenly;
     gap: 0px;
-    margin: 35px;
+    margin: 150px auto;
   }
 
   .xbox-item {
-    width: 60%;
+    width: 80%;
     height: 60%;
   }
 
@@ -375,16 +384,26 @@ footer .mercadopago-text {
     align-items: center;
     justify-content: space-evenly;
     gap: 0px;
-    margin: 35px;
+    margin: 150px auto;
   }
 
   .pc-item {
-    width: 60%;
+    width: 80%;
     height: 60%;
   }
 
   .lista-footer {
     padding-top: 40px;
+  }
+
+  footer {
+    padding: 45px 25px;
+  }
+  footer .mercadopago {
+    width: 20vh;
+  }
+  footer .mercadopago-text {
+    font-size: 0.4rem;
   }
 }
 @media only screen and (min-width: 577px) and (max-width: 991px) {
@@ -397,6 +416,10 @@ footer .mercadopago-text {
   }
 
   .banner {
+    display: none;
+  }
+
+  .menu {
     display: none;
   }
 
@@ -419,14 +442,18 @@ footer .mercadopago-text {
 .juegos-pc-gaming {
     flex-wrap: wrap;
     gap: 0px;
-    margin: 35px;
+    margin: 150px auto;
   }
 
   .ps-item,
 .xbox-item,
 .pc-item {
-    width: 40vh;
-    height: 60vh;
+    width: 30vh;
+    height: 50vh;
+  }
+
+  footer {
+    padding: 45px 25px;
   }
 }
 

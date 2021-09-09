@@ -4,8 +4,7 @@
     justify-content: space-evenly;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 60px;
-    margin: 0px 100px;
+    gap: 30px;
 }
 
 @mixin animation ($transition){
@@ -21,3 +20,23 @@
     -o-transform: $transform;
     -moz-transform: $transform;
 }
+
+@mixin imagenes-productos{
+    width: 75%;
+    height: 60%;
+    border-radius: 4px;
+    margin: 10px 0px;
+    object-fit: contain;
+}
+
+
+@mixin producto-precio {
+    font-size: 0.7rem;
+    font-family: 'Roboto';
+    color: $color-white;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+

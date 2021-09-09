@@ -8,9 +8,18 @@
         width: 10vh;
     }
 
+    .menu{
+        display: none;
+    }
+
     .banner{
         display: none;
     }
+
+    .carousel-setup{
+        margin: 150px 0px 0px 0px;
+    }
+
 
     .imagen-navegable {
         width: 90%;
@@ -33,11 +42,11 @@
         align-items: center;
         justify-content: space-evenly;
         gap: 0px;
-        margin: 35px;
+        margin: 150px auto;
     }
 
     .ps-item {
-        width: 60%;
+        width: 80%;
         height: 60%;
     }
 
@@ -47,11 +56,11 @@
         align-items: center;
         justify-content: space-evenly;
         gap: 0px;
-        margin: 35px;
+        margin: 150px auto;
     }
 
     .xbox-item {
-        width: 60%;
+        width: 80%;
         height: 60%;
     }
 
@@ -61,18 +70,32 @@
         align-items: center;
         justify-content: space-evenly;
         gap: 0px;
-        margin: 35px;
+        margin: 150px auto;
     }
 
     .pc-item {
-        width: 60%;
+        width: 80%;
         height: 60%;
     }
 
     .lista-footer {
         padding-top: 40px;
     }
+
+    footer{
+        padding: 45px 25px;
+
+        .mercadopago{
+            width: 20vh;
+        }
+
+        .mercadopago-text{
+            font-size: 0.4rem;
+        }
+    }
 }
+
+
 
 
 
@@ -88,6 +111,10 @@
     }
 
     .banner{
+        display: none;
+    }
+
+    .menu{
         display: none;
     }
 
@@ -112,15 +139,17 @@
     .juegos-pc-gaming {
         flex-wrap: wrap;
         gap: 0px;
-        margin: 35px;
+        margin: 150px auto;
     }
 
     .ps-item,
     .xbox-item,
     .pc-item {
-        width: 40vh;
-        height: 60vh;
+        width: 30vh;
+        height: 50vh;
     }
 
-
+    footer{
+        padding: 45px 25px;
+    }
 }
