@@ -449,6 +449,7 @@ footer .mercadopago-text {
   .juegos-ps,
 .juegos-xbox,
 .juegos-pc-gaming {
+    display: flex;
     flex-wrap: wrap;
     gap: 0px;
     margin: 150px auto;
