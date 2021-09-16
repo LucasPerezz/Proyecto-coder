@@ -22,6 +22,7 @@ footer {
 
     .mercadopago {
         width: 30vh;
+        margin-top: 30px;
     }
 
     .mercadopago-text {
@@ -42,4 +43,14 @@ footer {
         padding: 0px 4px;
     }
 
+}
+
+
+.footer-bt{
+    font-size: 0.9rem;
+}
+
+.footer-redes{
+    display: flex;
+    justify-content: center;
 }

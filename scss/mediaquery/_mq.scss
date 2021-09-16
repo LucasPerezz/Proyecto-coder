@@ -19,7 +19,11 @@
     .carousel-setup {
         margin: 150px 0px 0px 0px;
     }
-
+    
+    .imagenes-setup{
+        width: 100% !important;
+        height: 100% !important;
+    }
 
     .imagen-navegable {
         width: 90%;
@@ -30,7 +34,7 @@
         margin: 60px auto;
         padding-left: 45px;
     }
-
+    
     .imagen-navegable img {
         width: 90%;
         margin: auto;
@@ -169,13 +173,23 @@
         padding: 45px 25px;
 
         .mercadopago {
-            width: 20vh;
+            width: 10vh;
         }
 
         .mercadopago-text {
             font-size: 0.3rem;
         }
     }
+
+    .footer-bt{
+        font-size: 0.4rem;
+    }
+
+    .footer-container .redes-sociales {
+        width: 3vh;
+        padding: 0px 4px;
+    }
+
 }
 
 
@@ -203,6 +217,11 @@
 
     .carousel-setup {
         margin: 150px 0px 0px 0px;
+    }
+
+    .imagenes-setup{
+        width: 100% !important;
+        height: 100% !important;
     }
 
     .imagen-navegable {
@@ -238,5 +257,20 @@
 
     footer {
         padding: 45px 25px;
+
+        .mercadopago{
+            width: 23vh;
+        }
     }
+
+    
+    .footer-bt{
+        font-size: 0.5rem;
+    }
+
+    .footer-container .redes-sociales {
+        width: 3vh;
+        padding: 0px 4px;
+    }
+
 }

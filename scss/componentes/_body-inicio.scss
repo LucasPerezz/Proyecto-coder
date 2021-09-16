@@ -10,7 +10,7 @@ body {
     .imagen-ps,
     .imagen-xbox,
     .imagen-pcgaming {
-        width: 100%;
+        width: 60vh;
         height: 100%;
         border-radius: 15px;
         object-fit: cover;
@@ -18,27 +18,18 @@ body {
 }
 
 .imagen-navegable {
-    height: 1000px;
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-    justify-content: stretch;
-    justify-items: center;
+    width: 100%;
+    max-height: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
     grid-gap: 5px;
     margin: 200px auto;
 }
 
-.navegable-item1 {
-    grid-column: 2 / 4;
-    grid-row: 1 / 4;
+
+.imagenes-setup{
+    height: 90vh !important;
 }
 
-.navegable-item2 {
-    grid-column: 4 / 6;
-    grid-row: 1 / 4;
-}
-
-.navegable-item3 {
-    grid-column: 2 / 6;
-    grid-row: 4 / 8;
-}

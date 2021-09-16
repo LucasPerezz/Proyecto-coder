@@ -14,14 +14,12 @@
     }
 }
 
-.menu {
-    font-family: 'Lobster', cursive;
-    font-family: 'Sofia', cursive;
+.menu{
+    font-family: 'Oswald', sans-serif;
     font-size: 1rem;
     color: $bg-color-principal;
     list-style: none;
     padding-top: 1rem;
-    margin-bottom: 4rem;
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
@@ -97,7 +95,7 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    bottom: 110px;
+    bottom: 40px;
 
     .imagen-banner {
         width: 7%;
