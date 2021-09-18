@@ -19,17 +19,79 @@ body {
 
 .imagen-navegable {
     width: 100%;
-    max-height: 1000px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
     grid-gap: 5px;
-    margin: 200px auto;
+    margin: 130px auto;
 }
 
 
 .imagenes-setup{
-    height: 90vh !important;
+    height: 70vh !important;
+}
+
+.mas-vendido{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    background: linear-gradient(45deg, #0011ff, #ff0058, #6a00ff, rgb(255, 0, 0), #0011ff);
+    margin: 0px auto;
+    border-radius: 10px;
+    @include animation (all 400ms ease);
+    
+    &:hover{
+        @include transform(scale(1.025, 1.025))
+    }
+
+    p{
+        font-size: 1.5rem;
+        color: white;
+        font-family: 'Wallpoet';
+        font-weight: bold;
+        text-shadow: 1px 2px rgba(0, 0, 0, 0.522);
+        position: relative;
+        top: 10px;
+    }
+}
+
+.juegos-mas-vendidos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+
+    .mas-vendidos-item{
+     width: 35vh;
+    height: 54vh;
+    padding-bottom: 20px;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: $bg-color-principal;
+    box-shadow: 0px 1px 10px #ff0058;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    @include animation(all 400ms ease);
+
+    &:hover {
+        box-shadow: 5px 5px 20px #ff0058;
+        @include transform(scale(1.1, 1.1))
+    }
+
+    img {
+        @include imagenes-productos
+    }
+
+    p,
+    h3 {
+        @include producto-precio
+    }
+    }
 }
 

@@ -14,7 +14,7 @@
     margin: 20px;
     border-radius: 6px;
     overflow: hidden;
-    background: $bg-color-principal;
+    background: linear-gradient(180deg, $bg-color-principal, rgb(0, 174, 0), $bg-color-principal);
     box-shadow: 0px 1px 10px $color-xbox;
     display: flex;
     flex-direction: column;

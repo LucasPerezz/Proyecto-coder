@@ -15,7 +15,8 @@
 }
 
 .menu{
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    text-transform: uppercase;
     font-size: 1rem;
     color: $bg-color-principal;
     list-style: none;
@@ -25,6 +26,10 @@
     justify-content: space-evenly;
     position: relative;
     bottom: 20px;
+
+    a{
+        text-decoration: none;
+    }
 
     .blue {
         &::after {
