@@ -657,16 +657,43 @@ footer .mercadopago-text {
   .juegos-ps,
 .juegos-xbox,
 .juegos-pc-gaming {
-    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
     gap: 0px;
-    margin: 150px auto;
+    margin: 150px 0px 20px 0px;
   }
 
   .ps-item,
 .xbox-item,
 .pc-item {
-    width: 30vh;
-    height: 50vh;
+    width: 90%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 3px;
+    padding: 0px;
+  }
+  .ps-item .button-setup,
+.xbox-item .button-setup,
+.pc-item .button-setup {
+    width: 40% !important;
+    display: flex;
+    justify-content: center;
+  }
+  .ps-item .button-setup .btn,
+.xbox-item .button-setup .btn,
+.pc-item .button-setup .btn {
+    padding: 0.2rem 0.6rem !important;
+    font-size: 0.5rem;
+  }
+  .ps-item img,
+.xbox-item img,
+.pc-item img {
+    width: 20%;
+    margin-left: 5px;
   }
 
   footer {
