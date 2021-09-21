@@ -16,7 +16,7 @@ body {
         object-fit: cover;
         @include animation(all 400ms ease);
 
-        &:hover{
+        &:hover {
             @include transform(scale(1.1, 1.1))
         }
     }
@@ -34,11 +34,11 @@ body {
 }
 
 
-.imagenes-setup{
+.imagenes-setup {
     height: 70vh !important;
 }
 
-.mas-vendido{
+.mas-vendido {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,19 +46,19 @@ body {
     margin: 0px auto;
     border-radius: 10px;
     @include animation (all 400ms ease);
-    
-    &:hover{
+
+    &:hover {
         @include transform(scale(1.025, 1.025))
     }
 
-    h1{
+    h1 {
         font-size: 3.5rem;
         font-family: 'Poppins', sans-serif;
         margin-top: 60px;
     }
 }
 
-.juegos-mas-vendidos{
+.juegos-mas-vendidos {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -66,34 +66,33 @@ body {
     margin-top: 50px;
     margin-bottom: 70px;
 
-    .mas-vendidos-item{
-     width: 35vh;
-    height: 54vh;
-    padding-bottom: 20px;
-    margin: 20px;
-    border-radius: 6px;
-    overflow: hidden;
-    background: $bg-color-principal;
-    box-shadow: 0px 1px 10px #ff0058;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    @include animation(all 400ms ease);
+    .mas-vendidos-item {
+        width: 35vh;
+        height: 54vh;
+        padding-bottom: 20px;
+        margin: 20px;
+        border-radius: 6px;
+        overflow: hidden;
+        background: $bg-color-principal;
+        box-shadow: 0px 1px 10px #ff0058;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        @include animation(all 400ms ease);
 
-    &:hover {
-        box-shadow: 5px 5px 20px #ff0058;
-        @include transform(scale(1.1, 1.1))
-    }
+        &:hover {
+            box-shadow: 5px 5px 20px #ff0058;
+            @include transform(scale(1.1, 1.1))
+        }
 
-    img {
-        @include imagenes-productos
-    }
+        img {
+            @include imagenes-productos
+        }
 
-    p,
-    h3 {
-        @include producto-precio
-    }
+        p,
+        h3 {
+            @include producto-precio
+        }
     }
 }
-
